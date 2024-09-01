@@ -14,7 +14,7 @@ add_column(date)
 
 s = set()
 
-for i in range(1,2):
+for i in range(1,151):
 
     url = 'https://www.yuncaijing.com/data/mai/p{n}.html'.format(n=i)
     web = Chrome(service=Service(executable_path='./chromedriver'))
