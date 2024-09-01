@@ -36,4 +36,4 @@ for i in range(1,151):
         update_data(c, date, num)
 
     web.close()
-    time.sleep(5 + random.random()*10)
+    time.sleep(15 + random.random()*10)
